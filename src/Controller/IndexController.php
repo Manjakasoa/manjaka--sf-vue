@@ -17,4 +17,14 @@ class IndexController extends AbstractController
             'controller_name' => 'IndexController',
         ]);
     }
+
+    /**
+     * @Route("/vue", name="vue")
+     */
+    public function vue(): Response
+    {
+        return $this->render('index/index.html.twig', [
+            'controller_name' => 'IndexController',
+        ]);
+    }
 }
