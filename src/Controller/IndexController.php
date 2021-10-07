@@ -18,10 +18,4 @@ class IndexController extends AbstractController
         ]);
     }
 
-    /**
-     * @Route("/vue", name="vue")
-     */
-    public function vue(): Response
-    {
-        return new Response('vue js');
 }
