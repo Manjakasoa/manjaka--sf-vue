@@ -9,3 +9,6 @@ export default {
   name: "DemoComponent"
 };
 </script>
+<style scoped>
+	
+</style>
